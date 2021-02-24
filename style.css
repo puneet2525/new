@@ -1,0 +1,730 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-collapse{
+    padding-left: 240px;
+}
+nav{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.navbar-collapse a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar-collapse a:hover{
+    border-bottom: 1px solid red ;
+    font-weight: 900;
+}
+.navbar-brand a{
+    font-size: 30px;
+}
+i{
+    color: #7b7e81;
+    padding-right: 20px;
+    cursor: pointer;
+}
+i:hover{
+    color: black;
+}
+.carousel-item img{
+    height: 330px;
+}
+    span{
+    font-size: 28px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.navbar-brand h1{
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.featured{
+    margin-top: 50px;
+}
+.featured h2{
+    border: 2px solid #a4a8ac;
+    width: 35%;
+    height: 110%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.featured h2:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+.f-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.box-1{
+    height: 160px;
+    width: 160px;
+    background-color: #ffcb91;
+    border-radius: 10px;
+
+}
+.box-2{
+    height: 160px;
+    width: 160px;
+    background-color: #94ebcd;
+    border-radius: 10px;
+    
+}
+.box-3{
+    height: 160px;
+    width: 160px;
+    background-color: #c6a9a3;
+    border-radius: 10px;
+    
+}
+.box-4{
+    height: 160px;
+    width: 160px;
+    background-color: #9a8194;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+.box-5{
+    height: 160px;
+    width: 160px;
+    background-color: #99bbad;
+    border-radius: 10px;
+}
+.f-box img{
+    height: 150px;
+    margin-top: 10px;
+}
+.nw{
+    margin-top: 60px;
+}
+.nw-box{
+    text-transform: uppercase;
+}
+.nw h2{
+    background-color: black;
+    color: white;
+    width: 25%;
+    text-transform: uppercase;
+    font-weight: 500;
+    height: 120%;
+    cursor: pointer;
+}
+.nw h5{
+    color: #a4a8ac;
+}
+.nw h2:hover{
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    transition: .7s;
+}
+.nw-box{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.nw-box .box1:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.nw-box .box2:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.nw-box .box3:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.nw-box .box4:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.nw-box .box5:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.nw-box .box6:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.nw-box .box7:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.nw-box .box8:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+.nw-box h3{
+    margin-top: 30px;
+    color: #a4a8ac;
+    font-size: 110%;
+}
+.nw-box img{
+    height: 160px;
+    cursor: pointer;
+}
+.nw-box button{
+    background-color: transparent;
+    border: 3px solid black;
+    height:110%;
+    width: 50%
+}
+.nw-box button:hover{
+    background-color: black;
+    border: 3px solid white;
+    color: white
+}
+.nw-box button a:hover{
+    color: white
+}
+.nw-box button a{
+    text-decoration: none;
+
+}
+.nw-box .box1{
+    height: 300px;
+    width: 200px;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.nw-box .box2{
+    height: 300px;
+    width: 200px;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.nw-box .box3{
+    height: 300px;
+    width: 200px;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.nw-box .box8{
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.nw-box .box5{
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.nw-box .box7{
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.nw-box .box6{
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.nw-box .box4{
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+}
+.discount img{
+    height: 300px;
+    width: 700px;
+    border: 3px solid black;
+}
+.services{
+    margin-top: 60px;
+}
+.services h2{
+    border-bottom: 3px solid red;
+    width: 17%;
+    cursor: pointer;
+}
+.services h2:hover{
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 20%
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    cursor: pointer
+}
+.boxes1{
+    height: 200px;
+    width: 280px;
+    box-shadow: 0 10px 45px rgba(0, 0,0, 0.5);
+}
+.boxes2{
+    height: 200px;
+    width: 280px;
+    box-shadow: 0 10px 45px rgba(0, 0,0, 0.5);
+}
+.boxes3{
+    height: 200px;
+    width: 280px;
+    box-shadow: 0 10px 45px rgba(0, 0,0, 0.5);
+}
+.boxes i{
+    color: #51c2d5;
+    margin-top: 40px;
+}
+.boxes h3{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.boxes h4{
+    font-size: 14px;
+    color: #a4a8ac;
+}
+.footer{
+    background-color: #051822;
+    height: 300px;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    margin-right: 60px
+}
+.footer i{
+    color: white
+}
+.adress{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 50px;
+    width: 30%;
+    margin-right: 0px;
+    margin: 0%;
+}
+.adress h5{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.call{
+    display: flex;
+    padding-left: 50px;
+    width: 30%;
+    margin: 0px;
+    padding-top: 60px;
+    color: green
+}
+.call i{
+    color: green
+}
+.copy h4{
+    color: #a4a8ac;
+    font-weight: 300;
+    padding-left: 370px;
+}
+.copy{
+    margin-right: 0px;
+    
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.facebook i{
+    padding-right: 20px;
+    color:  #41a0d3
+}
+.facebook{
+    display: flex;
+    margin-top: 60px;
+}
+.youtube{
+    margin-top: 70px;
+    display: flex;
+}
+.youtube i{
+    color: red
+}
+ .youtube a{
+     margin-top: 10px;
+     color: red
+}
+.youtube a:hover{
+    color:  #41a0d3;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+}
+.facebook a{
+    margin-right: 30px;
+    padding: 3px 5px;
+    color: #41a0d3;
+    margin-top: 10px
+}
+.facebook a:hover{
+    color: red;
+    text-decoration: none;
+    border-bottom: 2px solid  #41a0d3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 900px){
+    nav{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+}
+@media(max-width: 900px){
+    .carousel-item img{
+        height: 230px;
+    }
+    .featured h2{
+        border: 2px solid #a4a8ac;
+        width: 55%;
+        height: 110%;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .box-1{
+        margin-bottom: 30px;
+    }
+    .box-3{
+        margin-bottom: 30px;
+    }
+    .nw h2{
+        background-color: black;
+        color: white;
+        width: 55%;
+        text-transform: uppercase;
+        font-weight: 500;
+        height: 120%;
+        cursor: pointer;
+    }
+    .nw-box{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 80px;
+    }
+    .nw-box .box1{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box .box2{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box .box3{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box .box4{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box .box5{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box .box6{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box .box7{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box .box8{
+        height: 320px;
+        width: 160px;
+        margin-bottom: 80px;
+        box-shadow: 0 5px 15px rgba(0, 0,0, 0.5);
+    }
+    .nw-box{
+        margin-bottom: 0px;
+    }
+    .services h2{
+        border-bottom: 3px solid red;
+        width: 52%;
+        cursor: pointer;
+    }
+    .services h2:hover{
+        border: 3px solid red;
+        border-radius: 10px;
+        width: 58%
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+        margin-top: 30px;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
+    .boxes1{
+        height: 200px;
+        width: 380px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 45px rgba(0, 0,0, 0.5);
+    }
+    .boxes2{
+        height: 200px;
+        width: 380px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 45px rgba(0, 0,0, 0.5);
+    }
+    .boxes3{
+        height: 200px;
+        width: 380px;
+        box-shadow: 0 10px 45px rgba(0, 0,0, 0.5);
+    }
+    .footer{
+        background-color: #051822;
+        height: 500px;
+        width: 100%;
+        color: white;
+        justify-content: space-between;
+        margin-right: 60px
+    }
+    .footer i{
+        color: white
+    }
+    .adress{
+        display: flex;
+        padding-top: 60px;
+        padding-left: 50px;
+        width: 30%;
+        margin-right: 0px;
+        margin: 0%;
+    }
+    .adress h5{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .call{
+        display: flex;
+        padding-left: 55px;
+        width: 30%;
+        margin: 0px;
+        padding-top: 50px;
+        color: green
+    }
+    .call i{
+        color: green
+    }
+    .copy h4{
+        color: #a4a8ac;
+        font-weight: 300;
+        padding-left: 60px;
+        margin-top: 30px;
+        font-size: 110%;
+    }
+    .copy{
+        margin-right: 0px;
+        
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 80px;
+    }
+    .facebook i{
+        padding-right: 20px;
+        color:  #41a0d3
+    }
+    .facebook{
+        display: flex;
+        margin-left: 55px;
+        margin-top: 10px;
+    }
+    .youtube{
+        margin-left: 55px;
+        display: flex;
+        margin-top: 40px;
+    }
+    .youtube i{
+        color: red
+    }
+     .youtube a{
+         margin-top: 10px;
+         color: red;
+         font-size: 110%;
+         font-weight: 600;
+    }
+    .youtube a:hover{
+        color:  #41a0d3;
+        text-decoration: none;
+        border-bottom: 2px solid red;
+    }
+    .facebook a{
+        margin-right: 30px;
+        padding: 3px 5px;
+        color: #41a0d3;
+        width: 100%;
+        font-size: 110%;
+         font-weight: 600;
+    }
+    .facebook a:hover{
+        color: red;
+        text-decoration: none;
+        border-bottom: 2px solid  #41a0d3;
+    }
+    .navbar-toggler button{
+        border: 0px;
+        color: black
+    }
+    .navbar-toggler{
+        margin-left: 0px;
+    }
+}
